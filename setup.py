@@ -30,7 +30,7 @@ if major_version_number < 1:
   install_requires = install_requires + install_requires_dev
 
 setup(
-    name="EDITME",
+    name="packagename",
     version=version,
     description="",
     long_description=long_description,
@@ -38,7 +38,7 @@ setup(
     url="EDITME",
     license="Apache 2",
     platforms="any",
-    packages=["EDITME"],
+    packages=["packagename"],
     include_package_data=True,
     install_requires=install_requires,
 )
